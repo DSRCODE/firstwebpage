@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Reset */
+.container_main {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background-image: url('4.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.header{
+    display: flex;
+    padding: 20px 20px;
+}
+.left {
+    /* border: 2px solid rgb(6, 39, 226); */
+    display: inline-block;
+    font-size: 20px;
+}
+
+.mid {
+    margin: 20px auto;
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+.right {
+    /* border: 2px solid rgba(49, 148, 36, 0.644); */
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 33px 20px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: rgb(109, 101, 101);
+    text-decoration: underline;
+
+
+
+}
+
+.left img {
+    width: 83px;
+    filter: invert(100%);
+    font-size: 20px;
+}
+
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px 9px;
+    height: 50px;
+    color: whitesmoke;
+    background-color: black;
+    padding: 0px 24px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(90, 83, 83);
+}
+
+.container {
+    float: right;
+    border: 2px solid white;
+    margin: 53px 22px;
+    padding: 16px 52px;
+    width: 33%;
+    border-radius: 42px;
+    height: fit-content;
+}
+.form.group input{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    display: block;
+    width:380px;
+    height: 40px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font: 25px;
+    border-radius: 20px;
+   
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 83%;
+    margin:19px auto ;
+}
